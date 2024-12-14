@@ -18,7 +18,7 @@
       };
 
       packages.${system}.default = pkgs.rustPlatform.buildRustPackage {
-        pname = "my-rust-project";
+        pname = "roflcat";
         version = "0.1.0";
         
         src = ./.;
